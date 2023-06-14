@@ -1,0 +1,14 @@
+fixed point iteration algorithm:
+1.   Start
+2.   Enter the changed function, g(x)
+3.   Enter the initial guess, a
+4.   Enter the tolerance value, e
+5.   Calculate 
+	b=g(a)
+6.   Find /a-b/
+7.   If /a-b/>e
+	goto step 5
+		else
+		goto step 3
+8.   Display b as root of the function.
+9.   Stop

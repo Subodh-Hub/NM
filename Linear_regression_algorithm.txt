@@ -1,0 +1,18 @@
+Algorithm for linear regression 
+1.   Start
+2.   Enter no. of data point, n
+3.   Enter the values of x, x[i]
+4.   Enter the values of y,y[i]
+5.   for i=1 to n
+	sumx = sumx+x[i]
+	sumy = sumy+y[i]
+	sumx2 = sumxz+x[i]*x[i]
+	sumxy = sumxy+x[i]+y[i]
+b=[nsumason(xy)-sumason(x)sumason(y)]/nsumason(x^2)-sumason(x^2)]
+a = [sumason(y)-bsumason(x)]/n
+
+6.   Calculate
+	b=(n*sumxy-sumx*sumy)/(nsumx2- sumx*sumx)
+	a= (sumy-b*sumx)/n
+7.   Display the required linear regression line is y = a+bx
+8.   Stop

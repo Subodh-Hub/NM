@@ -1,0 +1,23 @@
+Algorithm for Regular Falsii method
+1.   Start
+2.   Enter a function f
+3.   Enter initial values a, b
+4.   If (f(a)*f(b))>0
+	Display "Your intial guesses are wrong!!"
+	"please enter next initial values"
+	goto step 3
+	else
+	goto step 5
+*4.   Enter the tolerance value,e
+5.   find
+	c=(a*f(b)-bf(a))/(f(a)-f(b))
+6.   If f(a)*f(c)<0
+	b=c
+		else
+			a=c
+7.   if/f(c)/>e
+	goto step 5
+	else
+	goto step 8
+8.   Display c as a root 
+9.   Stop
